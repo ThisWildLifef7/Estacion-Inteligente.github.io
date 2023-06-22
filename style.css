@@ -1,5 +1,20 @@
+:root {
+    --theme: #121B39;
+    --colorletter: white;
+    --colorpasive: #6C7594;
+    --colorwidget: #FD4F08;
+    --vwidth: 150rem;
+    --lg: 20px;
+    --md: 15px;
+    --sm: 13px;
+}
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
 }
