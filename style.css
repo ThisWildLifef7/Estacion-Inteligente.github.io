@@ -190,8 +190,7 @@ html {
 .icon-fond a {
     color: white;
 }
-
-.fa-solid {
+.icon-fond .fa-solid {
     font-size: 40px;
     list-style: none;
     text-decoration: none;
