@@ -27,8 +27,7 @@ html {
     color: var(--colorletter);
     display: grid;
     place-items: center;
-    height: 16.5rem;
-    position: relative;
+    height: 17rem;
 }
 
 .box {
@@ -38,12 +37,9 @@ html {
     justify-content: space-between;
 }
 .first {
-    position: absolute;
-    top: 5px;
+    padding: 10px 0 10px 0;
 }
 .second {
-    position: absolute;
-    top: 13rem;
     height: 7rem;
     background-color: var(--colorwidget);
 }
@@ -127,9 +123,8 @@ html {
 
 .img {
     width: 100%;
-    object-fit: cover;
 }
-
+/* bloque main */
 .main {
     border: 2px;
 }
@@ -148,10 +143,17 @@ html {
     display: flex;
     align-items: center;
 }
-
+.two {
+    margin: 0 auto;
+    width: var(--vwidth);
+    height: 90rem;
+    display: flex;
+    border: 2px solid black;
+}
+/* sec one */
 .container-fond {
-    width: 40rem;
-    height: 40rem;
+    width: 45rem;
+    height: 42rem;
     margin-left: 21rem;
     display: flex;
     flex-direction: column;
@@ -160,9 +162,11 @@ html {
 }
 .container-fond span {
     font-size: 16px;
+    font-family: 'Secular One', sans-serif;
 }
 .container-fond h1 {
     font-size: 70px;
+    font-family: 'Secular One', sans-serif;
 }
 .container-fond button {
     color: white;
@@ -176,7 +180,7 @@ html {
 
 .icon-fond {
     display: flex;
-    width: 35%;
+    width: 30%;
     justify-content: space-between;
 }
 .icon-fond li {
@@ -196,10 +200,14 @@ html {
     text-decoration: none;
 }
 
+/* sec two */
+
+
 a {
     color: white;
 }
 
 button {
     cursor: pointer;
+    border: 0;
 }
