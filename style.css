@@ -20,11 +20,6 @@
 html {
     font-size: 62.5%;
 }
-/* signo de eliminacion "!" */
-.header {
-    background-color: var(--theme);
-    height: 16.5rem;
-}
 
 .main {
     border: 2px;
