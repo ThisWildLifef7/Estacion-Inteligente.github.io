@@ -133,7 +133,6 @@ html {
 .sec {
     height: 89rem;
     margin: 0 auto;
-    border: 2px solid red;
 }
 .one {
     background-image:
@@ -153,6 +152,10 @@ html {
 }
 .three {
     width: var(--vwidth);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
 /* sec one */
 .container-fond {
@@ -270,12 +273,12 @@ html {
     border-radius: 50%;
     overflow: hidden;
     box-shadow: 4px 5px 20px -5px black;
-    
-    transition: all 1s;
+    /* transition: all 1s; */
 }
-.logito:hover {
+/* .logito:hover {
     transform: translateX(200px);
-}
+    cursor: pointer;
+} */
 
 .cax {
     height: 20rem;
@@ -298,6 +301,60 @@ html {
 .c3 i {
     margin-right: 10px;
     color: var(--colorwidget);
+}
+
+/* sec third */
+.container-secthird--up {
+    display: grid;
+    place-items: center;
+    font-size: 15px;
+}
+.container-secthird--up h1 {
+    font-size: 40px;
+    font-family: 'Secular One', sans-serif;
+}
+
+.container-secthird--bottom {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.bottom {
+    width: 40rem;
+    height: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+.bottom .fa-solid {
+    position: absolute;
+    left: 4.8rem;
+    bottom: 28rem;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 40px;
+    background-color: var(--colorwidget);
+}
+
+.bottom-descrip {
+    width: 30rem;
+    height: 21rem;
+    display: grid;
+    margin-top: 20px;
+    font-size: 19px;
+}
+.bottom-descrip span {
+    color: var(--colorwidget);
+}
+
+.box-img--third {
+    width: 40rem;
+    height: 30rem;
 }
 
 a {
