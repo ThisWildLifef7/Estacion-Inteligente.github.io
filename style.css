@@ -150,7 +150,6 @@ html {
     height: 90rem;
     display: flex;
     justify-content: space-between;
-    /* border: 2px solid black; */
 }
 /* sec one */
 .container-fond {
@@ -161,14 +160,13 @@ html {
     flex-direction: column;
     justify-content: space-evenly;
     color: white;
+    font-family: 'Secular One', sans-serif;
 }
 .container-fond span {
     font-size: 16px;
-    font-family: 'Secular One', sans-serif;
 }
 .container-fond h1 {
     font-size: 70px;
-    font-family: 'Secular One', sans-serif;
 }
 .container-fond button {
     color: white;
@@ -251,18 +249,46 @@ html {
     display: flex   ;
     flex-direction: column;
     justify-content: space-evenly;
-    border: 2px solid green;
-}
-.logito {
-    width: 5em;
-    border-radius: 50%;
-    overflow: hidden;
-    border: 1px solid black;
 }
 .container-sectwo--right button {
     width: 25rem;
     height: 8rem;
     background-color: var(--colorwidget);
+    color: white;
+    font-size: var(--lg);
+    border-radius: 5px;
+}
+
+.logito {
+    width: 5em;
+    height: 5em;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 4px 5px 20px -5px black;
+}
+
+.cax {
+    height: 19rem;
+}
+.c1 {
+    display: grid;
+    font-family: 'Secular One', sans-serif;
+}
+.c1 h2 {
+    font-size: 50px;
+}
+.c2 {
+    text-align: left;
+}
+.c3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.c3 i {
+    margin-right: 10px;
+    color: var(--colorwidget);
 }
 
 a {
