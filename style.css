@@ -131,6 +131,7 @@ html {
 
 .sec {
     height: 78rem;
+    margin: 0 auto;
 }
 .one {
     background-image:
@@ -144,7 +145,6 @@ html {
     align-items: center;
 }
 .two {
-    margin: 0 auto;
     width: var(--vwidth);
     height: 90rem;
     display: flex;
