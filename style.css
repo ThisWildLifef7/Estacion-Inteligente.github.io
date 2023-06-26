@@ -123,6 +123,7 @@ html {
 
 .img {
     width: 100%;
+    height: 100%;
 }
 /* bloque main */
 .main {
@@ -148,7 +149,8 @@ html {
     width: var(--vwidth);
     height: 90rem;
     display: flex;
-    border: 2px solid black;
+    justify-content: space-between;
+    /* border: 2px solid black; */
 }
 /* sec one */
 .container-fond {
@@ -201,7 +203,67 @@ html {
 }
 
 /* sec two */
+.container-sectwo--left {
+    width: 45%;
+    display: grid;
+    position: relative;
+    place-content: center;
+}
+.card-img--left {
+    width: 50rem;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.card-img--right {
+    width: 30rem;
+    bottom: 5rem;
+    border-radius: 5px;
+    overflow: hidden;
+    position: absolute;
+}
 
+.icon-box {
+    width: 14rem;
+    height: 14rem;
+    bottom: 6rem;
+    right: 2rem;
+    position: absolute;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    border: 2px dashed white;
+}
+.icon-box .fa-solid {
+    color: var(--colorwidget);
+    background-color: white;
+    width: 10rem;
+    height: 10rem;
+    font-size: 5rem;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    box-shadow: 5px 5px 10px -4px black;
+}
+
+.container-sectwo--right {
+    width: 45%;
+    font-size: 20px;
+    display: flex   ;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 2px solid green;
+}
+.logito {
+    width: 5em;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid black;
+}
+.container-sectwo--right button {
+    width: 25rem;
+    height: 8rem;
+    background-color: var(--colorwidget);
+}
 
 a {
     color: white;
