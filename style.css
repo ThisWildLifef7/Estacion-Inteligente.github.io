@@ -131,8 +131,9 @@ html {
 }
 
 .sec {
-    height: 78rem;
+    height: 89rem;
     margin: 0 auto;
+    border: 2px solid red;
 }
 .one {
     background-image:
@@ -147,9 +148,11 @@ html {
 }
 .two {
     width: var(--vwidth);
-    height: 90rem;
     display: flex;
     justify-content: space-between;
+}
+.three {
+    width: var(--vwidth);
 }
 /* sec one */
 .container-fond {
@@ -267,6 +270,11 @@ html {
     border-radius: 50%;
     overflow: hidden;
     box-shadow: 4px 5px 20px -5px black;
+    
+    transition: all 1s;
+}
+.logito:hover {
+    transform: translateX(200px);
 }
 
 .cax {
