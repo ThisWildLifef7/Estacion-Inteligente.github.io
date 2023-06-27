@@ -379,11 +379,42 @@ html {
     font-weight: bold;
 }
 
-
 /* bloque footer */
 .footer {
     border: 2px solid black;
     height: 40rem;
+    background-color: var(--theme);
+}
+
+.sec-one--foot {
+    width: var(--vwidth);
+    height: 100%;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box-op--foot {
+    width: 30rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.box-op--foot h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.box-op--foot li {
+    font-size: 13px;
+}
+
+.son {
+    width: 8rem;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
 }
 
 a {
