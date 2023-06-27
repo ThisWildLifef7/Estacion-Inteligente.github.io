@@ -59,7 +59,6 @@ html {
 }
 
 .text-logo h1 {
-    font-family: 'Bruno Ace SC', cursive;
     font-size: var(--lg);
 }
 .text-logo span {
@@ -157,6 +156,12 @@ html {
     align-items: center;
     justify-content: space-evenly;
 }
+.four {
+    height: 58rem;
+    background-color: var(--colorwidget);
+    display: grid;
+    place-items: center;
+}
 /* sec one */
 .container-fond {
     width: 45rem;
@@ -180,7 +185,6 @@ html {
     height: 60px;
     border: 0;
     font-size: 18px;
-    border-radius: 5px;
     background-color: var(--colorwidget);
 }
 
@@ -263,7 +267,6 @@ html {
     background-color: var(--colorwidget);
     color: white;
     font-size: var(--lg);
-    border-radius: 5px;
 }
 
 .logito {
@@ -311,7 +314,6 @@ html {
 }
 .container-secthird--up h1 {
     font-size: 40px;
-    font-family: 'Secular One', sans-serif;
 }
 
 .container-secthird--bottom {
@@ -357,11 +359,43 @@ html {
     height: 30rem;
 }
 
+.container-secfour {
+    gap: 10px;
+    width: 65rem;
+    height: 20rem;
+    color: white;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    font-size: 15px;
+}
+.container-secfour h1 {
+    font-size: 40px;
+}
+.container-secfour button {
+    width: 20rem;
+    height: 5rem;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+/* bloque footer */
+.footer {
+    border: 2px solid black;
+    height: 40rem;
+}
+
 a {
     color: white;
+}
+
+h1 {
+    font-family: 'Secular One', sans-serif;
 }
 
 button {
     cursor: pointer;
     border: 0;
+    border-radius: 5px;
 }
